@@ -2,7 +2,8 @@
 .DS_Store
 
 # Binaries for programs and plugins
-cmd/*.exe
+cmd/pr-test-3/*.exe
+cmd/pr-test-3-client/*.exe
 cmd/*.exe~
 cmd/*.dll
 cmd/*.so
