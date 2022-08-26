@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package service;
+
+option go_package = "./proto";
+
+service UsersService {
+	rpc AddUser(UserInfoRequest) returns (UserResponse) {}
+	rpc RemoveUser(UserInfoRequest) returns (UserResponse) {}
+	rpc ListAllUsers(NoArgs) returns (ListOfUsersResponse) {}
+}
+
+message NoArgs {
+}
+
+
+message UserInfoRequest {
+	string username = 1;
+}
+
+message ListOfUsersResponse {
+	repeated string usernames = 1;
+	bool success = 2;
+}
+
+message UserResponse {
+	bool success = 1;
+}
