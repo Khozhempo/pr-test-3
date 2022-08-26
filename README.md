@@ -20,7 +20,6 @@
   - **clickhouse.sql:** команды создания базы в clickhouse и настройки автоматической выгрузки из kafka
 - scripts: пара скриптов в помощь
 - third_party: protoc 
-- 
 
 ## Нюансы
 
@@ -33,7 +32,7 @@
 - Go 1.18
   - GORM
   - gRPC
-  - Testing (в легкой форме
+  - Testing (в легкой форме)
 - Postgres 14.1
 - Redis 5.0
 - Kafka 3.2.1
