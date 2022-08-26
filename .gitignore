@@ -2,11 +2,11 @@
 .DS_Store
 
 # Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+cmd/*.exe
+cmd/*.exe~
+cmd/*.dll
+cmd/*.so
+cmd/*.dylib
 
 # Test binary, build with `go test -c`
 *.test
