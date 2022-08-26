@@ -2,8 +2,8 @@
 .DS_Store
 
 # Binaries for programs and plugins
-cmd/pr-test-3/*.exe
-cmd/pr-test-3-client/*.exe
+*.exe
+*.exe
 cmd/*.exe~
 cmd/*.dll
 cmd/*.so
@@ -22,3 +22,4 @@ cmd/*.dylib
 # vendor/
 
 .idea/
+!third_party/*.exe
